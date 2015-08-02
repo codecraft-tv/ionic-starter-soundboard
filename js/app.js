@@ -67,11 +67,6 @@ app.controller('SoundBoardCtrl', function ($scope) {
 	};
 
 	$scope.play = function (sound) {
-		if ($window.cordova) {
-			console.log("Playing sound on a device");
-		} else {
-			console.log("Playing sound in a browser");
-		}
 	};
 });
 
